@@ -1,4 +1,127 @@
 html,
 body {
-  font-family: Noto Sans JP;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  color: #384359;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  align-items: center;
+}
+
+.header__menu__items {
+  display: flex;
+  list-style: none;
+  gap: 0px 30px;
+  font-weight: 600;
+}
+
+.header__menu__items li {
+  border-right: 1px solid #666;
+  padding-right: 20px;
+}
+
+.header__menu__items li:last-child {
+  border: none;
+}
+
+.header__menu__items a,
+a:visited {
+  color: #384359;
+  text-decoration: none;
+}
+
+.header__button {
+  display: flex;
+  background-color: #007979;
+  border-radius: 4px;
+  color: white;
+  font-weight: 800;
+}
+
+.header__button :hover {
+  background-color: #007979;
+  opacity: 0.7;
+}
+
+.header__button__arrow {
+  width: "28px";
+  padding: 5px 5px;
+}
+
+/***** utility *****/
+.width-200 {
+  width: 200px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-x-10 {
+  gap: 0px 10px;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.px-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*****   *****/
+@media screen and (max-width: 1279px) {
+  /*　画面サイズが1279px以下の場合ここの記述が適用される　*/
+  .xl_hidden {
+    display: none;
+  }
+
+  .xl_px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /*　画面サイズが1023px以下の場合ここの記述が適用される　*/
+  .lg_hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  /*　画面サイズが751px以下の場合ここの記述が適用される　*/
+  .sm_hidden {
+    display: none;
+  }
+
+  .sm_width-150 {
+    width: 150px;
+  }
 }
