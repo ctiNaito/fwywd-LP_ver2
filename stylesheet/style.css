@@ -21,6 +21,20 @@ a:visited {
   text-decoration: none;
 }
 
+.hero__01 {
+  height: 500px;
+  background-image: url("../images/hero01_bg01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__02 {
+  height: 500px;
+  background-image: url("../images/hero01_bg02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /***** utility *****/
 .flex {
   display: flex;
@@ -32,6 +46,10 @@ a:visited {
 
 .align-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -50,7 +68,31 @@ a:visited {
   color: white;
 }
 
-.background-color-base {
+.color-main {
+  color: #007979;
+}
+
+.color-accent {
+  color: #f2c94c;
+}
+
+.color-main_text {
+  color: #384459;
+}
+
+.color-background {
+  color: #f1f7f8;
+}
+
+.color-text {
+  color: #06bbbc;
+}
+
+.background-color-linear {
+  background: linear-gradient(to right, #2ea1aa, #06bc7a);
+}
+
+.background-color-main {
   background-color: #007979;
 }
 
@@ -62,12 +104,32 @@ a:visited {
   font-weight: 800;
 }
 
+.max-height-600 {
+  max-height: 600px;
+}
+
 .width-150 {
   width: 150px;
 }
 
+.width-160 {
+  width: 160px;
+}
+
 .width-200 {
   width: 200px;
+}
+
+.width-240 {
+  width: 240px;
+}
+
+.width-250 {
+  width: 250px;
+}
+
+.width-780 {
+  width: 780px;
 }
 
 .gap-x-10 {
@@ -80,6 +142,10 @@ a:visited {
 
 .gap-x-30 {
   gap: 0px 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
 }
 
 .p-5 {
@@ -129,6 +195,38 @@ a:visited {
   padding-bottom: 40px;
 }
 
+.ml-40 {
+  margin-top: 40px;
+}
+
+.font-size-xs {
+  font-size: 12px;
+}
+
+.font-size-sm {
+  font-size: 14px;
+}
+
+.font-size-md {
+  font-size: 16px;
+}
+
+.font-size-normal {
+  font-size: 20px;
+}
+
+.font-size-lg {
+  font-size: 24px;
+}
+
+.font-size-xl {
+  font-size: 32px;
+}
+
+.font-size-2xl {
+  font-size: 40px;
+}
+
 /*****   *****/
 
 /*　画面サイズ >= 640px以下　*/
@@ -170,6 +268,24 @@ a:visited {
 
   .lg_width-200 {
     width: 200px;
+  }
+
+  .lg_width-half {
+    width: 50%;
+  }
+
+  .lg_max-height-400 {
+    max-height: 400px;
+  }
+
+  .lg_object-fit {
+    object-fit: cover;
+    position: absolute;
+    max-height: 100%;
+  }
+
+  .lg_font-size-md {
+    font-size: 16px;
   }
 }
 
