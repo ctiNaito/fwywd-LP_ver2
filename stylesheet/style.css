@@ -1,22 +1,9 @@
+/**** モバイルファーストに変更 ***/
 html,
 body {
   font-family: "Noto Sans JP";
-  font-size: 16px;
+  font-size: 12px;
   color: #384359;
-}
-
-.header__container {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 30px;
-  align-items: center;
-}
-
-.header__menu__items {
-  display: flex;
-  list-style: none;
-  gap: 0px 30px;
-  font-weight: 600;
 }
 
 .header__menu__items li {
@@ -34,35 +21,77 @@ a:visited {
   text-decoration: none;
 }
 
-.header__button {
-  display: flex;
-  background-color: #007979;
-  border-radius: 4px;
-  color: white;
-  font-weight: 800;
-}
-
-.header__button :hover {
-  background-color: #007979;
-  opacity: 0.7;
-}
-
-.header__button__arrow {
-  width: "28px";
-  padding: 5px 5px;
-}
-
 /***** utility *****/
-.width-200 {
-  width: 200px;
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .align-center {
   align-items: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.border-radius-4 {
+  border-radius: 4px;
+}
+
+.color-white {
+  color: white;
+}
+
+.background-color-base {
+  background-color: #007979;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.width-150 {
+  width: 150px;
+}
+
+.width-200 {
+  width: 200px;
+}
+
 .gap-x-10 {
   gap: 0px 10px;
+}
+
+.gap-x-20 {
+  gap: 0px 10px;
+}
+
+.gap-x-30 {
+  gap: 0px 10px;
+}
+
+.p-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .px-20 {
@@ -78,6 +107,11 @@ a:visited {
 .px-40 {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.py-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .py-20 {
@@ -96,32 +130,52 @@ a:visited {
 }
 
 /*****   *****/
-@media screen and (max-width: 1279px) {
-  /*　画面サイズが1279px以下の場合ここの記述が適用される　*/
-  .xl_hidden {
+
+/*　画面サイズ >= 640px以下　*/
+@media screen and (min-width: 640px) {
+  .sm_hidden {
+    display: none;
+  }
+}
+
+/*　画面サイズ >= 768px以下　*/
+@media screen and (min-width: 768px) {
+  .md_hidden {
     display: none;
   }
 
-  .xl_px-10 {
+  .md_px-10 {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 
-@media screen and (max-width: 1023px) {
-  /*　画面サイズが1023px以下の場合ここの記述が適用される　*/
+/*　画面サイズ >= 1024px以下　*/
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
   .lg_hidden {
     display: none;
   }
-}
 
-@media screen and (max-width: 751px) {
-  /*　画面サイズが751px以下の場合ここの記述が適用される　*/
-  .sm_hidden {
-    display: none;
+  .lg_display {
+    display: block;
   }
 
-  .sm_width-150 {
-    width: 150px;
+  .lg_flex {
+    display: flex;
+  }
+
+  .lg_width-200 {
+    width: 200px;
+  }
+}
+
+/*　画面サイズ < 1280px以下　*/
+@media screen and (min-width: 1280px) {
+  .xl_hidden {
+    display: none;
   }
 }
