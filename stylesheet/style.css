@@ -56,11 +56,13 @@ a:visited {
   display: flex;
 }
 
-/*
-.flex {
-  display: block;
+.grid {
+  display: grid;
 }
-*/
+
+.absolute {
+  position: absolute;
+}
 
 .relative {
   position: relative;
@@ -163,6 +165,10 @@ a:visited {
   background-color: #007979;
 }
 
+.background-color-primary {
+  background-color: #f1f7f8;
+}
+
 .font-weight-600 {
   font-weight: 600;
 }
@@ -223,6 +229,25 @@ a:visited {
   gap: 0px 10px;
 }
 
+.left-25p {
+  left: 25%;
+}
+
+.left-50p {
+  left: 50%;
+}
+
+.-transform-x-50p {
+  transform: translateX(-50%);
+}
+
+.-transform-x-25p {
+  transform: translateX(-25%);
+}
+
+.top-30 {
+  top: 30px;
+}
 .p-5 {
   padding-left: 5px;
   padding-right: 5px;
@@ -256,6 +281,10 @@ a:visited {
 
 .pl-100 {
   padding-left: 100px;
+}
+
+.pb-250 {
+  padding-bottom: 250px;
 }
 
 .px-15 {
@@ -305,6 +334,10 @@ a:visited {
 
 .mt-20 {
   margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 .mt-50 {
@@ -398,12 +431,36 @@ a:visited {
     display: flex;
   }
 
+  .lg_grid {
+    display: grid;
+  }
+
+  .lg_relative {
+    position: relative;
+  }
+
+  .lg_grid-row-50p {
+    grid-row: 1/2;
+  }
+
+  .lg_top-100 {
+    top: 100px;
+  }
+
   .lg_width-200 {
     width: 200px;
   }
 
+  .lg_width-450 {
+    width: 450px;
+  }
+
   .lg_width-half {
     width: 50%;
+  }
+
+  .lg_width-90p {
+    width: 90%;
   }
 
   .lg_max-height-400 {
@@ -432,13 +489,22 @@ a:visited {
     padding: 0px;
     left: 0px;
     top: 30px;
-    width: 1280px;
+    width: 800px;
     height: 400px;
+  }
+
+  .lg_relative {
+    position: relative;
   }
 
   .lg_px-60 {
     padding-left: 60px;
     padding-right: 60px;
+  }
+
+  .lg_px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .lg_py-30 {
@@ -466,8 +532,20 @@ a:visited {
     padding-left: 80px;
   }
 
+  .lg_pt-30 {
+    padding-top: 30px;
+  }
+
+  .lg_pb-20 {
+    padding-bottom: 20px;
+  }
+
   .lg_mt-70 {
     margin-top: 70px;
+  }
+
+  .lg_mt-100 {
+    margin-top: 100px;
   }
 }
 
@@ -475,5 +553,13 @@ a:visited {
 @media screen and (min-width: 1280px) {
   .xl_hidden {
     display: none;
+  }
+
+  .xl_max-width-900 {
+    max-width: 900px;
+  }
+
+  .xl_mx-auto {
+    margin: 0 auto !important;
   }
 }
