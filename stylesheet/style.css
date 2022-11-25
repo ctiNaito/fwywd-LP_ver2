@@ -58,6 +58,13 @@ a:visited {
   background-size: cover;
 }
 
+.uservoice__mobile {
+  height: 2000px;
+  background-image: url("../images/uservoice_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /***** utility *****/
 .flex {
   display: flex;
@@ -130,6 +137,12 @@ a:visited {
 .text-decoration-underline-main {
   text-decoration: none;
   border-bottom: 1px solid #007979;
+  padding-bottom: 1px;
+}
+
+.text-decoration-underline-accent {
+  text-decoration: none;
+  border-bottom: 2px solid #f2c94c;
   padding-bottom: 1px;
 }
 
@@ -324,6 +337,10 @@ a:visited {
   gap: 0px 10px;
 }
 
+.left-140 {
+  left: 140;
+}
+
 .left-25p {
   left: 25%;
 }
@@ -350,6 +367,10 @@ a:visited {
 
 .-top-45 {
   top: -45px;
+}
+
+.-top-60 {
+  top: -60px;
 }
 
 .top-30 {
@@ -545,6 +566,26 @@ a:visited {
   margin-top: 120px;
 }
 
+.mt-170 {
+  margin-top: 170px;
+}
+
+.mt-200 {
+  margin-top: 200px;
+}
+
+.mt-220 {
+  margin-top: 220px;
+}
+
+.mt-230 {
+  margin-top: 230px;
+}
+
+.mt-250 {
+  margin-top: 250px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -718,6 +759,13 @@ a:visited {
     background-size: cover;
   }
 
+  .lg_uservoice__pc {
+    height: 1200px;
+    background-image: url("../images/uservoice_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .lg_align-center {
     align-items: center;
   }
@@ -748,6 +796,10 @@ a:visited {
 
   .lg_width-450 {
     width: 450px;
+  }
+
+  .lg_width-550 {
+    width: 550px;
   }
 
   .lg_width-half {
@@ -808,6 +860,10 @@ a:visited {
     transform: rotate(270deg);
   }
 
+  .-lg_top-60 {
+    top: -60px;
+  }
+
   .lg_px-10 {
     padding-left: 10px;
     padding-right: 10px;
@@ -816,6 +872,11 @@ a:visited {
   .lg_px-20 {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .lg_px-40 {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .lg_px-60 {
@@ -852,6 +913,10 @@ a:visited {
     padding-top: 30px;
   }
 
+  .lg_pt-100 {
+    padding-top: 100px;
+  }
+
   .lg_pb-20 {
     padding-bottom: 20px;
   }
@@ -864,9 +929,30 @@ a:visited {
     margin-top: 100px;
   }
 
+  .lg_mt-130 {
+    margin-top: 130px;
+  }
+
+  .lg_mt-150 {
+    margin-top: 150px;
+  }
+
+  .lg_mt-160 {
+    margin-top: 160px;
+  }
+
+  .lg_mt-180 {
+    margin-top: 180px;
+  }
+
   .lg_mx-20 {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .lg_mx-60 {
+    margin-left: 60px;
+    margin-right: 60px;
   }
 
   .lg_mx-auto {
