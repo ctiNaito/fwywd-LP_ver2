@@ -166,6 +166,14 @@ a:visited {
   padding-bottom: 1px;
 }
 
+.text-decoration-underline-white {
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .text-decoration-none {
   text-decoration: none;
 }
@@ -253,6 +261,10 @@ a:visited {
   background-color: #ffffff;
 }
 
+.background-color-main_text {
+  background-color: #384459;
+}
+
 .list-checked {
   padding-left: 30px;
   line-height: 1.6em;
@@ -285,6 +297,18 @@ a:visited {
 
 .max-height-600 {
   max-height: 600px;
+}
+
+.min-height-550 {
+  min-height: 550px;
+}
+
+.max-width-900 {
+  max-width: 900px;
+}
+
+.width-15 {
+  width: 15px;
 }
 
 .width-20 {
@@ -458,6 +482,10 @@ a:visited {
   padding-bottom: 5px;
 }
 
+.pl-10 {
+  padding-left: 10px;
+}
+
 .pl-20 {
   padding-left: 20px;
 }
@@ -490,6 +518,10 @@ a:visited {
   padding-top: 25px;
 }
 
+.pt-40 {
+  padding-top: 40px;
+}
+
 .pb-15 {
   padding-bottom: 15px;
 }
@@ -508,6 +540,11 @@ a:visited {
 
 .pb-250 {
   padding-bottom: 250px;
+}
+
+.px-5 {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .px-10 {
@@ -616,6 +653,10 @@ a:visited {
   margin-top: 120px;
 }
 
+.mt-130 {
+  margin-top: 130px;
+}
+
 .mt-170 {
   margin-top: 170px;
 }
@@ -662,6 +703,10 @@ a:visited {
 
 .ml-40 {
   margin-left: 40px;
+}
+
+.ml-60 {
+  margin-left: 60px;
 }
 
 .mr-10 {
@@ -750,6 +795,9 @@ a:visited {
     display: grid;
   }
 
+  .md_justify-between {
+    justify-content: space-between;
+  }
   .md_font-size-regular {
     font-size: 18px;
   }
@@ -776,8 +824,29 @@ a:visited {
     padding-right: 10px;
   }
 
+  .md_px-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .md_pt-20 {
+    padding-top: 20px;
+  }
+
+  .md_pb-20 {
+    padding-bottom: 20px;
+  }
+
   .md_mt-0 {
     margin-top: 0px;
+  }
+
+  .md_mb-5 {
+    margin-bottom: 5px;
+  }
+
+  .md_ml-100 {
+    margin-left: 100px;
   }
 
   .md_width-300 {
@@ -845,6 +914,10 @@ a:visited {
     top: 100px;
   }
 
+  .lg_width-25 {
+    width: 25px;
+  }
+
   .lg_width-55 {
     width: 55px;
   }
@@ -863,6 +936,10 @@ a:visited {
 
   .lg_width-550 {
     width: 550px;
+  }
+
+  .lg_width-700 {
+    width: 700px;
   }
 
   .lg_width-1000 {
@@ -949,6 +1026,11 @@ a:visited {
   .lg_px-60 {
     padding-left: 60px;
     padding-right: 60px;
+  }
+
+  .lg_py-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .lg_py-30 {
