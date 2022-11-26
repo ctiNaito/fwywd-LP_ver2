@@ -122,12 +122,32 @@ a:visited {
   list-style: none;
 }
 
+.border-solid {
+  border: solid;
+}
+
+.border-width-1 {
+  border-width: 1px;
+}
+
+.border-width-3 {
+  border-width: 3px;
+}
+
 .border-radius-4 {
   border-radius: 4px;
 }
 
 .border-radius-16 {
   border-radius: 16px;
+}
+
+.border-color-gray {
+  border-color: #e1e1e1;
+}
+
+.border-color-accent {
+  border-color: #f2c94c;
 }
 
 .text-decoration-underline {
@@ -207,6 +227,10 @@ a:visited {
   color: #06bbbc;
 }
 
+.color-disabled {
+  color: #bdbdbd;
+}
+
 .color-linear {
   background: linear-gradient(to right, #2ea1aa, #06bc7a);
   -webkit-background-clip: text;
@@ -229,6 +253,20 @@ a:visited {
   background-color: #ffffff;
 }
 
+.list-checked {
+  padding-left: 30px;
+  line-height: 1.6em;
+  background: url(../images/icon_check.svg) left 0px top 1px no-repeat;
+  background-size: 15px auto;
+}
+
+.list-disabled {
+  padding-left: 30px;
+  line-height: 1.6em;
+  background: url(../images/icon_disabled.png) left 0px top 6px no-repeat;
+  background-size: 15px auto;
+}
+
 .font-weight-400 {
   font-weight: 400;
 }
@@ -239,6 +277,10 @@ a:visited {
 
 .font-weight-800 {
   font-weight: 800;
+}
+
+.font-weight-900 {
+  font-weight: 900;
 }
 
 .max-height-600 {
@@ -321,6 +363,10 @@ a:visited {
   width: 90%;
 }
 
+.width-95p {
+  width: 95%;
+}
+
 .width-100p {
   width: 100%;
 }
@@ -347,6 +393,10 @@ a:visited {
 
 .left-50p {
   left: 50%;
+}
+
+.transform-x-750p {
+  transform: translateX(750%);
 }
 
 .-transform-x-80p {
@@ -586,12 +636,20 @@ a:visited {
   margin-top: 250px;
 }
 
+.-mb-5 {
+  margin-bottom: -5px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
 
 .mb-20 {
   margin-bottom: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }
 
 .ml-10 {
@@ -626,6 +684,11 @@ a:visited {
 .my-20 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.my-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .font-size-xxs {
@@ -800,6 +863,10 @@ a:visited {
 
   .lg_width-550 {
     width: 550px;
+  }
+
+  .lg_width-1000 {
+    width: 1000px;
   }
 
   .lg_width-half {
