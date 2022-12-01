@@ -6,6 +6,10 @@ body {
   color: #384359;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header__menu__items li {
   border-right: 1px solid #666;
   padding-right: 20px;
