@@ -30,7 +30,9 @@
   </head>
   <body>
     <section id="pageHeader">
-      <div class="flex justify-between align-center px-30 mt-20">
+      <div
+        class="flex justify-between align-center max-width-1440 mx-auto px-0 mt-20 md_px-30"
+      >
         <div class="width-150 lg_width-200 hover-opacity-70">
           <a href="#">
             <img src="./images/logo.svg" alt="logo" />
@@ -48,40 +50,38 @@
           </ul>
         </div>
         <div>
-          <a href="https://forms.gle/C8xxVkutAaCGhtx18">
+          <a
+            href="https://forms.gle/C8xxVkutAaCGhtx18"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex background-color-main border-radius-4 font-weight-800 color-white align-center px-15 py-15 xl_px-10 xl_py-10 text-decoration-none visited-color-white hover-opacity-70"
+          >
             <div>
-              <a
-                href="#"
-                class="flex background-color-main border-radius-4 font-weight-800 color-white align-center px-15 py-15 xl_px-10 xl_py-10 text-decoration-none visited-color-white hover-opacity-70"
-              >
-                <div>
-                  <img
-                    class="p-5"
-                    src="./images/arrow_yellow.svg"
-                    width="28px"
-                    alt="arrow_yellow"
-                  />
-                </div>
-                <div>無料説明会へ申し込み</div>
-              </a>
+              <img
+                class="p-5"
+                src="./images/arrow_yellow.svg"
+                width="28px"
+                alt="arrow_yellow"
+              />
             </div>
+            <div>無料説明会へ申し込み</div>
           </a>
         </div>
       </div>
     </section>
 
     <section id="Hero01">
-      <div class="lg_flex lg_py-15">
-        <div class="lg_width-half hero01__01">
-          <div>
+      <div class="mx-auto max-width-1440 lg_flex lg_py-15 lg_pb-50">
+        <div class="hero01__01_mobile lg_width-half lg_hero01__01_pc">
+          <div class="lg_mt-50">
             <div class="flex align-center justify-center py-40">
               <img
-                width="320px"
+                class="width-200"
                 src="./images/logo_nomark.svg"
                 alt="logo_nomark"
               />
             </div>
-            <div class="align-center justify-between px-20 py-30">
+            <div class="align-center justify-between px-20">
               <img
                 width="780px"
                 src="./images/hero01_txt_title_img.svg"
@@ -89,40 +89,38 @@
               />
               <div class="flex justify-center align-center gap-x-10 py-20">
                 <div
-                  class="font-size-normal color-main font-weight-600 lg_font-size-md"
+                  class="font-size-xs color-main font-weight-600 lg_font-size-md"
                 >
                   仕事を続けながら挑戦可能
                 </div>
                 <div>
                   <img
-                    width="18px"
+                    class="width-15 lg_width-20"
                     src="./images/icon_hero_x.svg"
                     alt="icon_cross"
                   />
                 </div>
                 <div
-                  class="font-size-normal color-main font-weight-600 lg_font-size-md"
+                  class="font-size-xs color-main font-weight-600 lg_font-size-md"
                 >
                   新規事業のすべてが学べる
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="lg_position-absolute contents-center">
-          <div class="py-50">
-            <div
-              class="flex justify-center color-main font-size-normal font-weight-600"
-            >
-              <span style="font-family: arial"
-                >&#92;現在1期で28人が企業に挑戦中/</span
-              >
-            </div>
-            <div>
-              <a href="https://forms.gle/C8xxVkutAaCGhtx18">
+            <div class="hidden lg_grid lg_align-center lg_py-30">
+              <div class="pb-50">
+                <div
+                  class="flex justify-center color-main font-size-normal font-weight-600"
+                >
+                  <span style="font-family: arial"
+                    >&#92;現在1期で28人が企業に挑戦中/</span
+                  >
+                </div>
                 <div class="flex justify-center">
                   <a
-                    href="#"
+                    href="https://forms.gle/C8xxVkutAaCGhtx18"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     class="flex background-color-linear border-radius-4 font-weight-800 color-white px-15 py-15 xl_px-10 xl_py-10 align-center width-240 text-decoration-none visited-color-white hover-opacity-70"
                   >
                     <div>
@@ -136,11 +134,40 @@
                     <div class="font-size-md">無料説明会へ申し込み</div>
                   </a>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lg_hidden">
+          <div class="py-50">
+            <div
+              class="flex justify-center color-main font-size-normal font-weight-600"
+            >
+              <span style="font-family: arial"
+                >&#92;現在1期で28人が企業に挑戦中/</span
+              >
+            </div>
+            <div class="flex justify-center">
+              <a
+                href="https://forms.gle/C8xxVkutAaCGhtx18"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex background-color-linear border-radius-4 font-weight-800 color-white px-15 py-15 xl_px-10 xl_py-10 align-center width-240 text-decoration-none visited-color-white hover-opacity-70"
+              >
+                <div>
+                  <img
+                    class="p-5"
+                    src="./images/arrow_yellow.svg"
+                    width="28px"
+                    alt="arrow_yellow"
+                  />
+                </div>
+                <div class="font-size-md">無料説明会へ申し込み</div>
               </a>
             </div>
           </div>
         </div>
-        <div class="lg_width-half hero01__02">
+        <div class="hero01__02_mobile lg_width-half lg_hero01__02_pc">
           <div></div>
         </div>
       </div>
@@ -148,9 +175,9 @@
 
     <section id="Sympathy">
       <div class="background-color-primary pb-250 top-30 lg_pb-20 lg_width-90p">
-        <div class="lg_grid lg_px-60 lg_pt-30 xl_max-width-900 xl_mx-auto">
+        <div class="lg_grid lg_px-30 lg_pt-30 xl_max-width-950 xl_mx-auto">
           <div class="relative grid justify-center py-30 lg_grid-row-50p">
-            <p class="color-main font-size-lg font-weight-600">
+            <p class="color-main font-size-regular font-weight-600">
               <span class="color-main font-size-xl font-weight-600">起業</span>
               は選ばれし一握りの人の<br
                 class="md_hidden"
@@ -163,9 +190,9 @@
                 アントレプレナーシップ
               </p>
               <p>
-                いま日本では起業家精神を持った人材の育成に国を挙げて取り組んでいます。
-                市場の課題を調査して、解決するプロダクトを開発して
-                ビジネスとして普及させることができる人材になることが
+                いま日本では起業家精神を持った人材の育成に国を挙げて取り組んでいます。<br />
+                市場の課題を調査して、解決するプロダクトを開発して<br />
+                ビジネスとして普及させることができる人材になることが<br />
                 独立の有無は問わず求められる時代が来ます。
               </p>
             </div>
@@ -173,7 +200,7 @@
               <p class="color-main font-size-md font-weight-600">
                 これからの時代に求められる人材とは？
               </p>
-              <img src="./images/underline.svg" alt="line" />
+              <img class="width-280" src="./images/underline.svg" alt="line" />
             </div>
           </div>
           <div class="lg_grid-row-50p">
@@ -531,7 +558,9 @@
     </section>
 
     <section id="Hero02">
-      <div class="relative hero02__mobile grid align-center lg_hero02__pc">
+      <div
+        class="relative hero02__mobile grid align-center lg_hero02__pc max-width-1440 lg_mx-auto"
+      >
         <div class="grid justify-center mt-70">
           <span
             ><img
@@ -573,24 +602,22 @@
               >&#92;実際のfwywdユーザーの声を聞けば絶対に納得/</span
             >
           </div>
-          <div>
-            <a href="https://forms.gle/C8xxVkutAaCGhtx18">
-              <div class="flex justify-center">
-                <a
-                  href="#"
-                  class="flex background-color-linear border-radius-4 font-weight-600 color-white px-15 py-15 xl_px-10 xl_py-10 align-center width-240 text-decoration-none visited-color-white hover-opacity-70"
-                >
-                  <div>
-                    <img
-                      class="p-5"
-                      src="./images/arrow_yellow.svg"
-                      width="28px"
-                      alt="arrow_yellow"
-                    />
-                  </div>
-                  <div class="font-size-md">無料説明会へ申し込み</div>
-                </a>
+          <div class="flex justify-center">
+            <a
+              href="https://forms.gle/C8xxVkutAaCGhtx18"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex background-color-linear border-radius-4 font-weight-600 color-white px-15 py-15 xl_px-10 xl_py-10 align-center width-240 text-decoration-none visited-color-white hover-opacity-70"
+            >
+              <div>
+                <img
+                  class="p-5"
+                  src="./images/arrow_yellow.svg"
+                  width="28px"
+                  alt="arrow_yellow"
+                />
               </div>
+              <div class="font-size-md">無料説明会へ申し込み</div>
             </a>
           </div>
         </div>
@@ -1005,7 +1032,9 @@
     </section>
 
     <section id="Hero">
-      <div class="relative block hero02__mobile lg_hero02__pc">
+      <div
+        class="relative block hero02__mobile lg_hero02__pc max-width-1440 lg_mx-auto"
+      >
         <div class="grid justify-center">
           <span class="mt-170 lg_mt-100"
             ><a href="#"
@@ -1053,8 +1082,10 @@
           </div>
           <div class="flex justify-center">
             <a
-              href="#"
+              href="https://forms.gle/C8xxVkutAaCGhtx18"
               class="flex background-color-linear border-radius-4 font-weight-600 color-white px-15 py-15 xl_px-10 xl_py-10 align-center width-240 text-decoration-none visited-color-white hover-opacity-70"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <div>
                 <img
@@ -1073,7 +1104,7 @@
 
     <section id="PageFooter">
       <div
-        class="background-color-main_text font-size-sm color-white md_font-size-regular"
+        class="background-color-main_text font-size-sm color-white md_font-size-regular max-width-1440 lg_mx-auto"
       >
         <div class="md_ml-100">
           <div
